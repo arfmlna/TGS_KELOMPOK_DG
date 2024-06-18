@@ -1,0 +1,6 @@
+.nav-item {
+    border-bottom: 5px solid transparent;
+}
+.nav-item:hover {
+    border-bottom: 5px solid yellow;
+}

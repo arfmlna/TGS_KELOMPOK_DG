@@ -3,3 +3,4 @@ $(function() {
     $(".sidebar").load("../component/side.html");
     $(".footer").load("../component/footer.html");
 });
+

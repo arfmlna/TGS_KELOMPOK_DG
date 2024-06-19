@@ -1,6 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
 .nav-item {
+    transition: 2s;
     border-bottom: 5px solid transparent;
+    height: auto;
 }
 .nav-item:hover {
     border-bottom: 5px solid yellow;
+}
+.dropdown-menu {
+    animation: float ease-in-out 5s forwards;
+    transition: 2s;
+}
+.nav-link {
+    color: white;
+}
+
+@keyframes float {
+    from { left: 0; }
+    to { left: 50; }
 }
